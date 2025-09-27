@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+section{
+    min-height: 100vh;
+    background-size: cover;
+    background-position:center;
+}
+#main{
+    background-image: url(img/bgMAIN.png);
+}
