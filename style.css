@@ -9,3 +9,7 @@ section{
 #main{
     background-image: url(img/bgMAIN.png);
 }
+.mascot{
+    margin: 50px,65px;
+    padding: 45px,55px;
+}
