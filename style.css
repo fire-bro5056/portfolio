@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0;
 }
@@ -8,18 +9,27 @@ section{
 }
 #main{
     background-image: url(img/bgMAIN.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .mascot{
    width: 90px;
 }
 .window{
     background-color: #fff;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 .window_header{
     background-color:#D2D0F7 ;
     padding: 15px 20px ;
     display: flex;
     gap: 9px;
+    border-bottom: 1px solid black;
 }
 .circle{
     width: 22px ;
@@ -37,10 +47,32 @@ section{
     background-color:#04C800;
 }
 .name{
-font: width 792px;
-font:height 59px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2B2D35;
 
 }
 .desription{
-    
+    font-family: comfortaa;
+    font-weight: 700;
+    font-size:20px;
+    color: #2B2D35;
+}
+.window_content{
+    padding: 40px;
+}
+.button{
+    background-color:#BBFF2C ;
+    color: #000;
+    text-decoration: none;
+    padding: 22px 26px;
+    display: block;
+    min-width: 200px;
+    border:2px solid black ;
+    border-radius:100px ;
+    font-family: comfortaa ;
+    font-weight:700 ;
+    font-size: 20px;
+    text-align: center;
 }
