@@ -49,11 +49,11 @@ section{
 .name{
     font-family: Inter;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 80px;
     color: #2B2D35;
 
 }
-.desription{
+.description{
     font-family: comfortaa;
     font-weight: 700;
     font-size:20px;
@@ -75,4 +75,23 @@ section{
     font-weight:700 ;
     font-size: 20px;
     text-align: center;
+}
+.decor{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation-name: float;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate ;
+    
+}
+@keyframes float {
+    from {
+transform: translateY(0);
+    }
+    to{
+transform: translateY(-50px);
+    }
+
 }
