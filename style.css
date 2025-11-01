@@ -95,3 +95,38 @@ transform: translateY(-50px);
     }
 
 }
+.logo{
+    color: #BBFF2C;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: inter;
+    position: absolute;
+    left: 0px;
+}
+.menu_link{
+    color: #000;
+    background-color: #fff;
+    border:2px solid #000;
+    border-radius: 12px;
+    font-family: comfortaa;
+    font-size: 20px;
+    font-weight: 700;
+    width: 112px;
+    padding: 10px 0px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+}
+.menu{
+    display: flex;
+    gap: 20px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
