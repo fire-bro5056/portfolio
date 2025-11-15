@@ -6,14 +6,30 @@ section{
     min-height: 100vh;
     background-size: cover;
     background-position:center;
-}
-#main{
-    background-image: url(img/bgMAIN.png);
-    display: flex;
+     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+#main{
+    background-image: url(img/bgMAIN.png);
+   
+}
+#about{
+    background-image: url(/img/bgABOUT.png);
+}
+#skills{
+    background-image: url(/img/bgSKILLS.png)
+}
+#works{
+    background-image: url(/img/bgWORKS.png)
+}
+
+#comments{
+    background-image: url(/img/bgCOMMENTS.png)
+}
+
 .mascot{
    width: 90px;
 }
@@ -129,11 +145,25 @@ header{
     position: fixed;
     top: 0px;
     width: 100%;
+    padding: 20px 40px;
 }
 .about_card{
 
 }
-.section_tittle{
+.section-title{
     font-family: inter;
     font-size: 80px;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 5px 5px 0px #000;
+}
+.active{
+    background-color:#792aff;
+    color: #fff;
+}
+.about__bio{
+    
+}
+.header_about{
+background-color: #792AFF;
 }
