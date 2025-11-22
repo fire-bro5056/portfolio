@@ -147,7 +147,8 @@ header{
     width: 100%;
     padding: 20px 40px;
 }
-.about_card{
+.about__card{
+background-color: #D2D0F7;
 
 }
 .section-title{
@@ -162,8 +163,13 @@ header{
     color: #fff;
 }
 .about__bio{
-    
+background-color:#792aff ; 
+color: #fff;  
+font-family: comfortaa;
+font-size: 20px;
+font-weight: 700;
 }
-.header_about{
-background-color: #792AFF;
+.about__wrapper{
+    display: flex;
 }
+
