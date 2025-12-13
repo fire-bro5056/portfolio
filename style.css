@@ -173,7 +173,10 @@ font-weight: 700;
     display: flex;
 }
 .img{
-    width: 336;
-    height: 181;
+    width: 550px;
+    height: 350px;
+}
+html {
+    scroll-behavior: smooth;
 }
 

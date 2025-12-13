@@ -16,7 +16,7 @@ window.addEventListener('scroll',()=>{
 
 
 function getCurrentSection(){
-    const position =window.scrollY
+    const position =window.scrollY + 1
     for(let section of sections){
         const sectionTop= section.offsetTop
         const sectionBottom= section.offsetTop+ section.offsetHeight
@@ -28,4 +28,5 @@ function getCurrentSection(){
             
 
     }
+    return sections.at(-1)
 }
