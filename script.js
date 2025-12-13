@@ -1,10 +1,20 @@
 const buttons = document.querySelectorAll('.menu_link') 
-const sections = document.querySelectorAll('section')
-let active = document.querySelector('.active')
+const sections = Array.from(document.querySelectorAll('section'))
+let active = document.querySelector('.active')  
+
+
 window.addEventListener('scroll',()=>{
-    const currentSection=getCurrentSection()
-    console.log(currentSection)
+    const currentSection=getCurrentSection();
+    const index = sections.indexOf(currentSection);
+    const newActive=buttons[index];
+    active.classList.remove('active');
+    newActive.classList.add('active')
+    active=newActive;
+    
+
 })
+
+
 function getCurrentSection(){
     const position =window.scrollY
     for(let section of sections){

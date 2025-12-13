@@ -172,4 +172,8 @@ font-weight: 700;
 .about__wrapper{
     display: flex;
 }
+.img{
+    width: 336;
+    height: 181;
+}
 
