@@ -180,11 +180,36 @@ html {
     scroll-behavior: smooth;
 }
 
+.menu_toggle{
+    background:none;
+    border: none;
+    display: none;
+    
+
+}
 @media(max-width:1000px){
     .logo{
         font-size: 40px;
         }
     .menu{
         display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #200153;
+        }
+    .oppened{
+        display: flex;
+    }
+
+        
+    .menu_toggle{
+            display: block;
+            z-index: 100;
         }
 }
