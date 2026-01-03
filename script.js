@@ -30,3 +30,9 @@ function getCurrentSection(){
     }
     return sections.at(-1)
 }
+const menuToggleBtn=document.querySelector(".menu_toggle")
+const menu=document.querySelector(".menu")
+menuToggleBtn.addEventListener('click',ToggleMenu)
+function ToggleMenu(){
+menu.classList.toggle('oppened')
+}
