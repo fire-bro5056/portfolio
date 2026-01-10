@@ -69,6 +69,15 @@ section{
     color: #2B2D35;
 
 }
+.borderless{
+    border:none ;
+    padding: 0px;
+}
+.borderless>.circle{
+width: 16px;
+height:16px ;
+}
+
 .description{
     font-family: comfortaa;
     font-weight: 700;
@@ -149,6 +158,8 @@ header{
 }
 .about__card{
 background-color: #D2D0F7;
+padding: 20px;
+border-radius: 10px;
 
 }
 .section-title{
@@ -157,6 +168,7 @@ background-color: #D2D0F7;
     color: #fff;
     font-weight: 700;
     text-shadow: 5px 5px 0px #000;
+    
 }
 .active{
     background-color:#792aff;
@@ -168,13 +180,22 @@ color: #fff;
 font-family: comfortaa;
 font-size: 20px;
 font-weight: 700;
+display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    padding-right: 20px;
 }
 .about__wrapper{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
 }
 .img{
-    width: 550px;
-    height: 350px;
+    width: 200px;
+    margin: 20px 0px;
+   
 }
 html {
     scroll-behavior: smooth;
@@ -213,9 +234,7 @@ html {
             z-index: 100;
         }
 }
-
-/* TODO: Remove this */
-.button_about{
-    size:200px;
-    padding: 35px 25px;
+.borderless{
+    border: ;
 }
+
