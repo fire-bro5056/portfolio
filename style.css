@@ -215,6 +215,7 @@ html {
 }
 
 /* TODO: Remove this */
-.see_button{
-    background-color: #BBFF2C;
+.button_about{
+    size:200px;
+    padding: 35px 25px;
 }
