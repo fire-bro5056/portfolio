@@ -17,17 +17,17 @@ section{
    
 }
 #about{
-    background-image: url(/img/bgABOUT.png);
+    background-image: url(img/bgABOUT.png);
 }
 #skills{
-    background-image: url(/img/bgSKILLS.png)
+    background-image: url(img/bgSKILLS.png)
 }
 #works{
-    background-image: url(/img/bgWORKS.png)
+    background-image: url(img/bgWORKS.png)
 }
 
 #comments{
-    background-image: url(/img/bgCOMMENTS.png)
+    background-image: url(img/bgCOMMENTS.png)
 }
 
 .mascot{
@@ -197,6 +197,10 @@ display: flex;
     margin: 20px 0px;
    
 }
+.image_change{
+    width: 45%;
+    
+}
 html {
     scroll-behavior: smooth;
 }
@@ -234,7 +238,5 @@ html {
             z-index: 100;
         }
 }
-.borderless{
-    border: ;
-}
+
 
